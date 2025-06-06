@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Closer",
+  "description": "Automatically closes tabs that have been open for several days.",
+  "version": "1.0",
+  "permissions": ["tabs", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
